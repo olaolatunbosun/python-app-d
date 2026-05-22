@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-app-d
+  description: Python app that displays time - named python-app-d
+  annotations:
+    github.com/project-slug: olaolatunbosun/python-app-d
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental

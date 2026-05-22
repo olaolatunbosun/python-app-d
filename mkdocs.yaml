@@ -1,0 +1,12 @@
+site_name: 'python-app-d'
+site_description: 'Main documentation for the python-app-d'
+repo_url: https://github.com/olaolatunbosun/python-app-d
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+# For sidebar navigation on https://backstage.io/, see `microsite/sidebars.json`
+nav:
+  - Overview:
+      - Getting started: 'docs/index.md'
